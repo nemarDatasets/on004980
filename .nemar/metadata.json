@@ -1,36 +1,79 @@
 {
   "version": "2.0",
-  "dataset_id": "on004980",
-  "source": "openneuro",
-  "source_id": "ds004980",
+  "pipeline_stage": "enriched",
   "title": "EEG data set for a architectural affordances task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Wang,S.": {},
     "Oliveira,G.S.": {},
     "Djebbara,Z": {},
     "Gramann, K.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004980.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004980",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004980",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "unofficial extension",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "China Scholarship Council"
     }
   ],
-  "acknowledgements": "n/a"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.7 GB (38 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises EEG recordings collected during an architectural affordances task, designed to investigate neural responses to environmental spatial features and their perceived functional properties. The study employs electroencephalography to capture brain activity while participants interact with or evaluate architectural stimuli, contributing to understanding of how the brain processes spatial affordances in built environments.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "affordances"
+    },
+    {
+      "term": "architecture"
+    },
+    {
+      "term": "spatial perception"
+    },
+    {
+      "term": "brain activity"
+    },
+    {
+      "term": "environmental neuroscience"
+    },
+    {
+      "term": "built environment"
+    },
+    {
+      "term": "neuroscience"
+    }
+  ],
+  "source_hash": "7d7bdb42d2d2d1183d0ab916c6e612bfefc8a50e2fc3f1400c9a68eeff768dea"
 }
