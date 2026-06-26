@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "EEG data set for a architectural affordances task",
-  "description": "This dataset comprises electroencephalography (EEG) recordings collected during an architectural affordances task. The study investigates neural correlates of spatial perception and environmental interaction using EEG acquisition. The dataset represents raw neurophysiological data suitable for cognitive neuroscience research on embodied cognition and environmental processing. This dataset is mirrored on NEMAR from OpenNeuro (ds004980).",
+  "description": "This dataset comprises electroencephalography (EEG) recordings collected during an architectural affordances task. The study investigates neural correlates of spatial perception and environmental interaction using EEG acquisition. Participants performed a task involving perception and interaction with architectural spaces, with recordings capturing sensorimotor and cognitive processing related to environmental affordances. The dataset represents raw neurophysiological data suitable for cognitive neuroscience research on environmental cognition, spatial awareness, and sensorimotor processing in architectural contexts.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,24 +19,28 @@
       "term": "spatial cognition"
     },
     {
+      "term": "environmental perception"
+    },
+    {
       "term": "affordances"
+    },
+    {
+      "term": "neuroimaging"
     },
     {
       "term": "architecture"
     },
     {
-      "term": "embodied cognition"
-    },
-    {
-      "term": "environmental perception"
+      "term": "sensorimotor"
     },
     {
       "term": "cognitive neuroscience"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "embodied cognition"
+    },
+    {
+      "term": "motor imagery"
     }
   ],
   "related_identifiers": [
@@ -59,6 +63,10 @@
   "funding_references": [
     {
       "funder_name": "China Scholarship Council"
+    },
+    {
+      "funder_name": "China Scholarship Council",
+      "award_number": "Not specified"
     }
   ],
   "resource_type_general": "Dataset",
