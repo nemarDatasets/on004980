@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG data set for a architectural affordances task",
+  "description": "This dataset comprises electroencephalography (EEG) recordings collected during an architectural affordances task. The study investigates neural correlates of spatial perception and environmental interaction using EEG acquisition. The dataset represents raw neurophysiological data suitable for cognitive neuroscience research on embodied cognition and environmental processing. This dataset is mirrored on NEMAR from OpenNeuro (ds004980).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +11,35 @@
     "Djebbara,Z": {},
     "Gramann, K.": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004980.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "spatial cognition"
+    },
+    {
+      "term": "affordances"
+    },
+    {
+      "term": "architecture"
+    },
+    {
+      "term": "embodied cognition"
+    },
+    {
+      "term": "environmental perception"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004980",
       "identifier_type": "URL",
@@ -25,6 +49,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004980",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004980.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -33,12 +62,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "1.7 GB (38 files)"
+    "17.0 GB (53 files)"
   ],
   "formats": [
     ".eeg",
@@ -46,34 +75,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings collected during an architectural affordances task, designed to investigate neural responses to environmental spatial features and their perceived functional properties. The study employs electroencephalography to capture brain activity while participants interact with or evaluate architectural stimuli, contributing to understanding of how the brain processes spatial affordances in built environments.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "affordances"
-    },
-    {
-      "term": "architecture"
-    },
-    {
-      "term": "spatial perception"
-    },
-    {
-      "term": "brain activity"
-    },
-    {
-      "term": "environmental neuroscience"
-    },
-    {
-      "term": "built environment"
-    },
-    {
-      "term": "neuroscience"
-    }
-  ],
-  "source_hash": "7d7bdb42d2d2d1183d0ab916c6e612bfefc8a50e2fc3f1400c9a68eeff768dea"
+  "source_hash": "8ddf5fa92241fc7670ac59787febad24d4723ffc0650662dbf2b58126f2521dc"
 }
