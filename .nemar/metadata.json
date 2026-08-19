@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG data set for a architectural affordances task",
-  "description": "This dataset comprises electroencephalography (EEG) recordings collected during an architectural affordances task. The study investigates neural correlates of spatial perception and environmental interaction using EEG acquisition. Participants performed a task involving perception and interaction with architectural spaces, with recordings capturing sensorimotor and cognitive processing related to environmental affordances. The dataset represents raw neurophysiological data suitable for cognitive neuroscience research on environmental cognition, spatial awareness, and sensorimotor processing in architectural contexts.",
+  "description": "This dataset contains EEG recordings collected during an architectural affordances task, in which participants engaged with environments designed to elicit perception of action possibilities. The data are intended to support research on the neural correlates of spatial cognition and embodied perception of architectural environments.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,31 +16,16 @@
       "term": "EEG"
     },
     {
-      "term": "spatial cognition"
-    },
-    {
-      "term": "environmental perception"
-    },
-    {
       "term": "affordances"
-    },
-    {
-      "term": "neuroimaging"
     },
     {
       "term": "architecture"
     },
     {
-      "term": "sensorimotor"
+      "term": "spatial cognition"
     },
     {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "embodied cognition"
-    },
-    {
-      "term": "motor imagery"
+      "term": "mobile brain/body imaging"
     }
   ],
   "related_identifiers": [
@@ -50,23 +35,19 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004980",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004980.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004980",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
       "funder_name": "China Scholarship Council"
-    },
-    {
-      "funder_name": "China Scholarship Council",
-      "award_number": "Not specified"
     }
   ],
   "resource_type_general": "Dataset",
