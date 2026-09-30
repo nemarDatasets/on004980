@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG data set for a architectural affordances task",
-  "description": "This dataset contains EEG recordings collected during an architectural affordances task, in which participants engaged with environments designed to elicit perception of action possibilities. The data are intended to support research on the neural correlates of spatial cognition and embodied perception of architectural environments.",
+  "description": "EEG dataset collected during an architectural affordances task, in which participants experienced architectural spaces while brain activity was recorded. The dataset is shared in raw form, follows an unofficial BIDS extension, and is mirrored on NEMAR from OpenNeuro (ds004980).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,16 +16,13 @@
       "term": "EEG"
     },
     {
-      "term": "affordances"
+      "term": "architectural affordances"
     },
     {
-      "term": "architecture"
+      "term": "neuroarchitecture"
     },
     {
-      "term": "spatial cognition"
-    },
-    {
-      "term": "mobile brain/body imaging"
+      "term": "spatial perception"
     }
   ],
   "related_identifiers": [
@@ -56,7 +53,7 @@
     "eeg"
   ],
   "sizes": [
-    "17.0 GB (53 files)"
+    "15.81 GB (53 files)"
   ],
   "formats": [
     ".eeg",
